@@ -1,6 +1,6 @@
 # RASI_Grupo5
 Integrantes:
   -Julio Peña 
-  -Sebastian Casanova
+  -Sebastián Casanova
   -Juana Mejía
   -Lucciano Franco
