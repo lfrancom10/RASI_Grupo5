@@ -20,11 +20,11 @@ def generar_texto_aleatorio(tamaño):
     texto += caracteres[random.randint(0, len(caracteres) - 1)]
   return texto
 
-rabbit_host = 'host'
-rabbit_user = 'monitoring_user'
-rabbit_password = 'isis2503'
-exchange = 'monitoring_measurements'
-topic = 'ML.505.Temperature'
+rabbit_host = '10.128.0.5'
+rabbit_user = 'grupo5_user'
+rabbit_password = 'grupo5'
+exchange = 'rasi_imagenes'
+topic = 'Rasi.#.#'
 connection = pika.BlockingConnection(
 pika.ConnectionParameters(host=rabbit_host, 
 credentials=pika.PlainCredentials(rabbit_user, rabbit_password)))

@@ -73,12 +73,16 @@ WSGI_APPLICATION = 'RASI.wsgi.application'
 
 
 # Database
-# https://docs.djangoproject.com/en/3.2/ref/settings/#databases
+# https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'grupo5_db',
+        'USER': 'grupo5_user',
+        'PASSWORD': 'grupo5',
+        'HOST': '10.58.240.3',
+        'PORT': '',
     }
 }
 
